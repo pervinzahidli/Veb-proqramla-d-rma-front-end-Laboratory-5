@@ -1,0 +1,32 @@
+{
+  "contactInfo": [
+    "+1234567890",
+    "richard@example.com"
+  ],
+  "educationData": [
+    {
+      "degree": "Bachelor of Science",
+      "school": "University of Science",
+      "year": "2010-2014"
+    }
+  ],
+  "skillsData": [
+    "Marketing Strategy",
+    "Digital Advertising",
+    "Market Research"
+  ],
+  "languagesData": [
+    "Ereb mereb (Fluent)",
+    "Spanish (Native)"
+  ],
+  "experienceData": [
+    {
+      "jobTitle": "Marketing Manager",
+      "company": "Tech Corp",
+      "duration": "2018-Present",
+      "description": "Led digital marketing campaigns with 30% ROI increase"
+    }
+  ],
+  "profileText": "Experienced marketing professional with 8+ years in digital strategy and brand management.",
+  "referenceText": "Available upon request"
+}

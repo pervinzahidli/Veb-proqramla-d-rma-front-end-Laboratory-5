@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Richard Sanchez - Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <img src="salam!.jpeg" alt="Profile Photo" class="daire">
+
+    <h2 id="contact-heading"><center>CONTACT ▲</center></h2>
+    <div class="dropdown-content" id="contact-dropdown">
+      <div class="contact" id="contact-section"></div>
+      <input type="text" id="new-contact" placeholder="New contact info" />
+      <button id="add-contact">Add</button>
+    </div>
+    <hr>
+
+    <h2 id="education-heading"><center>EDUCATION ▲</center></h2>
+    <div class="dropdown-content" id="education-dropdown">
+      <div class="education-container"></div>
+      <button id="add-education">+ Add Education</button>
+    </div>
+    <hr>
+
+    <h2 id="skills-heading"><center>SKILLS ▲</center></h2>
+    <div class="dropdown-content" id="skills-dropdown">
+      <div class="skills-container"></div>
+      <input type="text" id="new-skill" placeholder="New skill" />
+      <button id="add-skill">Add</button>
+    </div>
+    <hr>
+
+    <h2 id="languages-heading"><center>LANGUAGES ▲</center></h2>
+    <div class="dropdown-content" id="languages-dropdown">
+      <div class="languages-container"></div>
+      <input type="text" id="new-language" placeholder="New language" />
+      <button id="add-language">Add</button>
+    </div>
+    
+    <button id="save-all" class="save-btn">Save All Data</button>
+  </div>
+
+  <div class="main">
+    <h1>Jamie <span class="highlight">Vardy emi</span></h1>
+    <h3>MARKETING MANAGER</h3>
+
+    <div class="section">
+      <h2>PROFILE</h2><hr>
+      <p contenteditable="true" id="profile-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <button onclick="saveEditableContent(this, 'profile')">Save</button>
+    </div>
+
+    <div class="section">
+      <h2>WORK EXPERIENCE</h2><hr>
+      <div class="experience-container"></div>
+      <button id="add-experience">+ Add Experience</button>
+    </div>
+
+    <div class="section">
+      <h2>REFERENCE</h2><hr>
+      <p contenteditable="true" id="reference-text">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+      <button onclick="saveEditableContent(this, 'reference')">Save</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
